@@ -88,13 +88,13 @@ RCT_EXPORT_METHOD(identify:(NSDictionary *)identity)
     if ([identity objectForKey:@"name"] != NULL) {
         user.name = [RCTConvert NSString:identity[@"name"]];
     }
-    
+
     for (NSString *key in identity) {
         if ([key isEqual:@"email"] || [key isEqual:@"name"]) continue;
         id value = identity[key];
         [user addAttributeWithKey:key value:[RCTConvert NSString:value]];
     }
-    
+
     [HSBeacon login:user];
 }
 

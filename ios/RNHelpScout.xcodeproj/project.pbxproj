@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		015023C72386044A00A49D20 /* Beacon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Beacon.h; path = ../../../ios/Frameworks/Beacon.framework/Headers/Beacon.h; sourceTree = "<group>"; };
 		6E1853A42337D00F005E6C14 /* libRNHelpScout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNHelpScout.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E3914622337F31700CCB64E /* RNHelpScoutBeacon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNHelpScoutBeacon.m; sourceTree = "<group>"; };
 		6E3914632337F31700CCB64E /* RNHelpScoutBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNHelpScoutBeacon.h; sourceTree = "<group>"; };
@@ -43,6 +44,7 @@
 			isa = PBXGroup;
 			children = (
 				6E1853A52337D00F005E6C14 /* Products */,
+				015023C72386044A00A49D20 /* Beacon.h */,
 				6E3914632337F31700CCB64E /* RNHelpScoutBeacon.h */,
 				6E3914622337F31700CCB64E /* RNHelpScoutBeacon.m */,
 			);
