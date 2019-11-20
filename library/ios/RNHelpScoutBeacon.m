@@ -1,6 +1,6 @@
 #import <React/RCTConvert.h>
 
-#import "../../../../ios/Frameworks/Beacon.framework/Headers/Beacon.h"
+#import "../../../ios/Frameworks/Beacon.framework/Headers/Beacon.h"
 
 #import "RNHelpScoutBeacon.h"
 
