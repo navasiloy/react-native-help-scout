@@ -75,14 +75,14 @@ public class HelpScoutModule extends ReactContextBaseJavaModule {
 			Beacon.login(email);
 		}
 
-		Iterator<Map.Entry<String, Object>> i = identity.getEntryIterator();
-
-		while (i.hasNext()) {
-			Map.Entry<String, Object> entry = i.next();
-			String key = entry.getKey();
-			if (key == "email" || key == "name") continue;
-			Beacon.addAttributeWithKey(key, (String) entry.getValue());
-		}
+// 		Iterator<Map.Entry<String, Object>> i = identity.getEntryIterator();
+//
+// 		while (i.hasNext()) {
+// 			Map.Entry<String, Object> entry = i.next();
+// 			String key = entry.getKey();
+// 			if (key == "email" || key == "name") continue;
+// 			Beacon.addAttributeWithKey(key, (String) entry.getValue());
+// 		}
 	}
 
 	@ReactMethod
